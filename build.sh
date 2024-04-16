@@ -69,3 +69,14 @@ for m in "${mipmap[@]}"; do
 		"intensity-$m.png" --width "$m" --height "$m"
 done
 
+
+# --------------------------------
+
+mipmap=( 128 64 32 16 )
+
+for m in "${mipmap[@]}"; do
+	resvg "./epicenter-mark/epicenter-mark.svg" \
+		--skip-system-fonts --use-fonts-dir "$FONTDIR" \
+		"epicenter-mark-$m.png" --width "$m" --height "$m"
+done
+

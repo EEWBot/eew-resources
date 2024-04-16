@@ -1,0 +1,23 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="128px" height="128px">
+	<g fill="#300">
+		<rect
+			x="-2" y="38" width="104" height="24"
+			transform="rotate(45, 50, 50)"
+		/>
+
+		<rect
+			x="-2" y="38" width="104" height="24"
+			transform="rotate(-45, 50, 50)"
+		/>
+	</g>
+	<g fill="red">
+		<rect
+			x="3" y="43" width="94" height="14"
+			transform="rotate(45, 50, 50)"
+		/>
+		<rect
+			x="3" y="43" width="94" height="14"
+			transform="rotate(-45, 50, 50)"
+		/>
+	</g>
+</svg>
