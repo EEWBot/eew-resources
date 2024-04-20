@@ -1,0 +1,15 @@
+<svg viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg" width="700px" height="150px">
+	<text
+		font-family="'Exo 2'"
+		fill="#000"
+		font-size="180"
+		text-anchor="middle"
+		font-weight="700"
+		font-style="italic"
+		dominant-baseline="middle"
+		x="50%"
+		y="63%"
+	>
+		EEWBot
+	</text>
+</svg>

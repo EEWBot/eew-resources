@@ -1,0 +1,14 @@
+<svg viewBox="0 0 512 20" xmlns="http://www.w3.org/2000/svg" width="512px" height="20px">
+	<text
+		font-family="'BIZ UDPGothic'"
+		fill="#000"
+		font-size="18"
+		font-weight="700"
+		font-style="italic"
+		dominant-baseline="middle"
+		x="5"
+		y="63%"
+	>
+		国土交通省 国土数値情報「湖沼データ」を加工して作成
+	</text>
+</svg>

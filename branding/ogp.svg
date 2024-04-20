@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" width="1200px" height="630px">
+	<defs>
+		<linearGradient id="bg">
+			<stop offset="0%" stop-color="#f2f2f2" />
+			<stop offset="100%" stop-color="#f6f6f6" />
+		</linearGradient>
+	</defs>
+	<rect x="0" y="0" width="1200" height="630" fill="url(#bg)" />
+
+	<!-- This empty text element is must be required. -->
+	<!-- refs: https://github.com/RazrFalcon/resvg/issues/740 -->
+	<text></text>
+
+	<image x="50" y="135" width="360" height="360" href="icon.svg" />
+	<image x="440" y="250" width="700" height="150" href="text.svg" />
+</svg>

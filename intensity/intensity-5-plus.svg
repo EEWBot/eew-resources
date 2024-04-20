@@ -28,11 +28,10 @@
 		x="50%" y="58%"
 		dominant-baseline="middle"
 		text-anchor="middle"
-		font-family="Reddit Mono"
+		font-family="'Reddit Mono'"
 		font-weight="900"
 		font-size="80"
 		fill="#fff"
-		
 	>
 		5<tspan font-size="60" dy="-15%">+</tspan>
 	</text>

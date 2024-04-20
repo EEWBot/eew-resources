@@ -1,0 +1,15 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="256px" height="256px">
+	<!-- This empty text element is must be required. -->
+	<!-- refs: https://github.com/RazrFalcon/resvg/issues/740 -->
+	<text></text>
+
+	<image x="4" y="4" width="80" height="80" href="intensity-1.svg" />
+	<image x="88" y="4" width="80" height="80" href="intensity-2.svg" />
+	<image x="172" y="4" width="80" height="80" href="intensity-3.svg" />
+	<image x="4" y="88" width="80" height="80" href="intensity-4.svg" />
+	<image x="88" y="88" width="80" height="80" href="intensity-5-minus.svg" />
+	<image x="172" y="88" width="80" height="80" href="intensity-5-plus.svg" />
+	<image x="4" y="172" width="80" height="80" href="intensity-6-minus.svg" />
+	<image x="88" y="172" width="80" height="80" href="intensity-6-plus.svg" />
+	<image x="172" y="172" width="80" height="80" href="intensity-7.svg" />
+</svg>
