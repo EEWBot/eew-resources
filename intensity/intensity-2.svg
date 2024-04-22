@@ -19,7 +19,7 @@
 
 	<!-- Base -->
 	<rect
-		x="5" y="5" width="90" height="90" rx="8" ry="8"
+		x="5" y="5" width="90" height="90" rx="4" ry="4"
 		fill="url(#intensity-color)"
 	/>
 
