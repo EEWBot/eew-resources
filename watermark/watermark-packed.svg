@@ -3,10 +3,9 @@
 	<!-- refs: https://github.com/RazrFalcon/resvg/issues/740 -->
 	<text></text>
 
-	<image x="162" y="0" href="branding/text.svg" width="350" height="75" opacity="0.3" />
+	<image x="162" y="0" href="branding/text.svg" width="350" height="75" opacity="0.3" filter="invert(1)" />
 
-
-	<image x="0" y="196" href="ne.svg" width="512" height="20" />
-	<image x="0" y="216" href="jma.svg" width="512" height="20" />
-	<image x="0" y="236" href="mlit.svg" width="512" height="20" />
+	<image opacity="0.66" x="0" y="196" href="ne.svg" width="512" height="20" />
+	<image opacity="0.66" x="0" y="216" href="jma.svg" width="512" height="20" />
+	<image opacity="0.66" x="0" y="236" href="mlit.svg" width="512" height="20" />
 </svg>
