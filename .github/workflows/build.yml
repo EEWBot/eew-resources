@@ -24,7 +24,7 @@ jobs:
           # depName=rsms/inter
           RESVG_VERSION="0.41.0"
 
-          wget "https://github.com/RazrFalcon/resvg/releases/download/${VERSION}/resvg-linux-x86_64.tar.gz"
+          wget "https://github.com/RazrFalcon/resvg/releases/download/${RESVG_VERSION}/resvg-linux-x86_64.tar.gz"
           tar xf resvg-linux-x86_64.tar.gz
 
           cd ..
