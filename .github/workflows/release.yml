@@ -19,10 +19,13 @@ jobs:
         run: |
           sudo apt-get -y update
           sudo apt-get install -y resvg
+          # I hate Ubuntu https://packages.ubuntu.com/jammy/amd64/resvg/filelist
+          mkdir bin
+          ln -s /usr/bin/rendersvg ./bin/resvg
 
       - name: build
         run: |
-          ./build.sh
+          PATH="./bin/:$PATH" ./build.sh
 
       - name: pre-release
         uses: "marvinpinto/action-automatic-releases@latest"
