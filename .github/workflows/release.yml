@@ -17,11 +17,19 @@ jobs:
 
       - name: Install resvg
         run: |
-          sudo apt-get -y update
-          sudo apt-get install -y resvg
-          # I hate Ubuntu https://packages.ubuntu.com/jammy/amd64/resvg/filelist
+          # Why Ubuntu uses legacy version of resvg?
+
           mkdir bin
-          ln -s /usr/bin/rendersvg ./bin/resvg
+          cd bin
+
+          # depName=rsms/inter
+          RESVG_VERSION="0.41.0"
+
+          wget "https://github.com/RazrFalcon/resvg/releases/download/${VERSION}/resvg-linux-x86_64.tar.gz"
+          tar xf resvg-linux-x86_64.tar.gz
+
+          cd ..
+
 
       - name: build
         run: |
