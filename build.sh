@@ -6,7 +6,7 @@ shopt -s extglob
 
 # --------------------------------
 
-depends=( curl resvg )
+depends=( curl resvg tar )
 notfound=()
 
 for app in "${depends[@]}"; do
@@ -137,3 +137,12 @@ for d in "${simple_dirs[@]}"; do
 			"$TARGET/${filename%.*}.png"
 	done
 done
+
+# --------------------------------
+
+RESOURCES="./resources"
+
+cp -r "$TARGET" "$RESOURCES"
+rm -f "$RESOURCES.tar"
+tar -cvf "$RESOURCES.tar" "$RESOURCES"
+rm -r "$RESOURCES"
