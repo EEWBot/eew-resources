@@ -1,3 +1,4 @@
 *.png
 *.tar
 fonts/
+bin/
