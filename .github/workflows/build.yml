@@ -1,0 +1,25 @@
+name: build
+
+on:
+  pull_request:
+    paths:
+      - 'build.sh'
+      - '.github/workflows/build.yml'
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+
+      - name: Install resvg
+        run: |
+          sudo apt-get -y update
+          sudo apt-get install -y resvg
+
+      - name: build
+        run: |
+          ./build.sh
+
