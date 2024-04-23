@@ -10,7 +10,12 @@
       "datasourceTemplate": "git-refs"
     },
     {
-      "fileMatch": ["build.yml", "release.yml"],
+      "fileMatch": [
+        "build.yml",
+        "release.yml",
+        "(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$",
+        "(^|/)action\\.ya?ml$"
+      ],
       "matchStrings": ["depName=(?<depName>.*?)?\\s.*?_VERSION=\"(?<currentValue>.*?)\""],
       "versioningTemplate": "docker",
       "datasourceTemplate": "github-releases"
