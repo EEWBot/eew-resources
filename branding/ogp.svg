@@ -12,5 +12,5 @@
 	<text></text>
 
 	<image x="50" y="135" width="360" height="360" href="icon.svg" />
-	<image x="440" y="250" width="700" height="150" href="text.svg" />
+	<image x="450" y="250" width="700" height="150" href="text.svg" />
 </svg>
