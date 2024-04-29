@@ -40,17 +40,6 @@
 	</text>
 
 	<g transform="translate(50, 135)">
-		<image width="360" height="360" href="icon.svg" />
-		<g
-			stroke="#00508c"
-			stroke-width="16"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<g transform="translate(260, 260)">
-				<path d="M 0,-30 0,30" />
-				<path d="M -30,0 30,0" />
-			</g>
-		</g>
+		<image width="360" height="360" href="icon-invite.svg" />
 	</g>
 </svg>
