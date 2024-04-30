@@ -77,14 +77,20 @@ fi
 
 # depName=git@github.com:googlefonts/morisawa-biz-ud-gothic
 BIZUD_COMMIT="18934af56b9c003ca58c54bffbf226848cb11032"
-BIZUDP_PATH="$FONTS/BIZUDPGothic-Bold.ttf"
+BIZUDP_B_PATH="$FONTS/BIZUDPGothic-Bold.ttf"
+BIZUDP_R_PATH="$FONTS/BIZUDPGothic-Regular.ttf"
 
-if [[ ! -e "$BIZUDP_PATH" ]]; then
+if [[ ! -e "$BIZUDP_B_PATH" ]]; then
 	curl -L -f -s \
-		--output "$BIZUDP_PATH" \
+		--output "$BIZUDP_B_PATH" \
 		https://github.com/googlefonts/morisawa-biz-ud-gothic/raw/$BIZUD_COMMIT/fonts/ttf/BIZUDPGothic-Bold.ttf
 fi
 
+if [[ ! -e "$BIZUDP_R_PATH" ]]; then
+	curl -L -f -s \
+		--output "$BIZUDP_R_PATH" \
+		https://github.com/googlefonts/morisawa-biz-ud-gothic/raw/$BIZUD_COMMIT/fonts/ttf/BIZUDPGothic-Regular.ttf
+fi
 
 # --------------------------------
 

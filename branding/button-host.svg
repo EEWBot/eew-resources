@@ -1,0 +1,25 @@
+<svg viewBox="0 0 425 100" xmlns="http://www.w3.org/2000/svg" width="850px" height="200px">
+	<defs>
+		<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#6e6ead" />
+			<stop offset="0" stop-color="#6e6ead" />
+			<stop offset="1" stop-color="#00508c" />
+		</linearGradient>
+	</defs>
+
+	<rect x="0" y="0" ry="10" width="425" height="100" fill="url(#bg)" />
+	<image x="10" y="10" width="80" height="80" href="icon.svg" />
+
+	<text
+		font-family="'BIZ UDPGothic'"
+		fill="#fff"
+		font-size="40"
+		text-anchor="start"
+		dominant-baseline="middle"
+		x="100"
+		y="50"
+	>
+		<tspan dy="5%">EEWBotをホスト</tspan>
+	</text>
+</svg>
+
