@@ -54,7 +54,7 @@ fi
 
 
 # depName=git@github.com:reddit/redditsans.git
-REDDITSANS_COMMIT="60e19b50bde6de34b695591a8a047a6a3618a37c"
+REDDITSANS_COMMIT="aae51f87b9dc16ab78e8013c1f945dda85318ecc"
 REDDITSANS_PATH="$FONTS/RedditMono-ExtraBold.ttf"
 
 if [[ ! -e "$REDDITSANS_PATH" ]]; then
