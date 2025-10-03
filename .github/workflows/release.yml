@@ -36,7 +36,7 @@ jobs:
           PATH="./bin/:$PATH" ./build.sh
 
       - name: pre-release
-        uses: softprops/action-gh-release@v2.3.3
+        uses: softprops/action-gh-release@v2.3.4
         if: "! startsWith(github.ref, 'refs/tags/')"
         with:
           tag_name: "latest"
@@ -47,7 +47,7 @@ jobs:
             resources.tar
 
       - name: tagged-release
-        uses: softprops/action-gh-release@v2.3.3
+        uses: softprops/action-gh-release@v2.3.4
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: false
