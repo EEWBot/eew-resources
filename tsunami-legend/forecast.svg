@@ -1,0 +1,15 @@
+<svg viewBox="0 0 256 64" xmlns="http://www.w3.org/2000/svg" width="256px" height="64px">
+	<line x1="8" y1="32" x2="40" y2="32" stroke="rgb(0, 191, 255)" stroke-width="6" />
+
+	<text
+		font-family="'BIZ UDPGothic'"
+		fill="#000"
+		font-size="24"
+		font-weight="700"
+		dominant-baseline="middle"
+		x="48"
+		y="53%"
+	>
+		津波予報
+	</text>
+</svg>
