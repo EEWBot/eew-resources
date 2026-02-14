@@ -1,0 +1,10 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" width="256px" height="256px">
+	<!-- This empty text element is must be required. -->
+	<!-- refs: https://github.com/RazrFalcon/resvg/issues/740 -->
+	<text></text>
+
+	<image x="0" y="0" width="256" height="64" href="major-warning.svg" />
+	<image x="0" y="64" width="256" height="64" href="warning.svg" />
+	<image x="0" y="128" width="256" height="64" href="advisory.svg" />
+	<image x="0" y="192" width="256" height="64" href="forecast.svg" />
+</svg>

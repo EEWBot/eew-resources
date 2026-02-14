@@ -130,6 +130,14 @@ for m in "${mipmap[@]}"; do
 done
 
 
+mipmap=( 512 256 128 )
+
+for m in "${mipmap[@]}"; do
+	resvg "./tsunami-legend/legend-packed.svg" \
+		--skip-system-fonts --use-fonts-dir "$FONTS" \
+		"$TARGET/tsunami-legend-$m.png" --width "$m" --height "$m"
+done
+
 # --------------------------------
 
 simple_dirs=( branding )
