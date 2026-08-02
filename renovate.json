@@ -11,8 +11,7 @@
     },
     {
       "fileMatch": [
-        "build.yml",
-        "release.yml"
+        "prepare-resvg.sh"
       ],
       "matchStrings": ["depName=(?<depName>.*?)?\\s.*?_VERSION=\"(?<currentValue>.*?)\""],
       "versioningTemplate": "docker",

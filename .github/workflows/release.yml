@@ -15,25 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
 
-      - name: Install resvg
-        run: |
-          # Why Ubuntu uses legacy version of resvg?
-
-          mkdir bin
-          cd bin
-
-          # depName=RazrFalcon/resvg
-          RESVG_VERSION="v0.47.0"
-
-          wget "https://github.com/RazrFalcon/resvg/releases/download/${RESVG_VERSION}/resvg-linux-x86_64.tar.gz"
-          tar xf resvg-linux-x86_64.tar.gz
-
-          cd ..
-
-
       - name: build
         run: |
-          PATH="./bin/:$PATH" ./build.sh
+          . ./prepare-resvg.sh
+          ./build.sh
 
       - name: pre-release
         uses: softprops/action-gh-release@v3.0.2
