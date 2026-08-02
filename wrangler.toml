@@ -2,7 +2,7 @@ name = "eew-resources"
 compatibility_date = "2026-08-02"
 
 [build]
-command = "./build-static.sh"
+command = "./build-web.sh"
 
 [assets]
 directory = "./static/"
