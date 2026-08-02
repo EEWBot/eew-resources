@@ -4,15 +4,13 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["build.sh"],
+      "fileMatch": ["build\\.sh"],
       "matchStrings": ["depName=(?<depName>.*?)?\\s.*?_COMMIT=\"(?<currentValue>)(?<currentDigest>.*?)\""],
       "versioningTemplate": "git",
       "datasourceTemplate": "git-refs"
     },
     {
-      "fileMatch": [
-        "prepare-resvg.sh"
-      ],
+      "fileMatch": ["prepare-resvg\\.sh"],
       "matchStrings": ["depName=(?<depName>.*?)?\\s.*?_VERSION=\"(?<currentValue>.*?)\""],
       "versioningTemplate": "docker",
       "datasourceTemplate": "github-releases"
