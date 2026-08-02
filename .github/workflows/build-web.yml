@@ -1,21 +1,21 @@
-name: build
+name: build-web
 
 on:
   pull_request:
     paths:
-      - 'build.sh'
+      - 'build-web.sh'
       - 'prepare-resvg.sh'
-      - '.github/workflows/build.yml'
+      - '.github/workflows/build-web.yml'
 
 jobs:
   build:
-    name: build
+    name: build-web
     runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v7.0.1
 
-      - name: build
+      - name: build-web
         run: |
           . ./prepare-resvg.sh
-          ./build.sh
+          ./build-web.sh
