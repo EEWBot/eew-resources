@@ -3,9 +3,9 @@ name: build
 on:
   pull_request:
     paths:
-      - 'build.sh'
+      - 'build-web.sh'
       - 'prepare-resvg.sh'
-      - '.github/workflows/build.yml'
+      - '.github/workflows/build-web.yml'
 
 jobs:
   build:
@@ -18,4 +18,4 @@ jobs:
       - name: build
         run: |
           . ./prepare-resvg.sh
-          ./build.sh
+          ./build-web.sh
