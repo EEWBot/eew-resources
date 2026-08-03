@@ -33,7 +33,7 @@ mkdir -p "$BIN"
 pushd "$BIN"
 
 # depName=RazrFalcon/resvg
-RESVG_VERSION="v0.47.0"
+RESVG_VERSION="v0.48.1"
 
 wget "https://github.com/RazrFalcon/resvg/releases/download/${RESVG_VERSION}/resvg-linux-x86_64.tar.gz"
 tar xf resvg-linux-x86_64.tar.gz
