@@ -53,6 +53,17 @@ if [[ ! -e "$INCONSOLATA_PATH" ]]; then
 fi
 
 
+# depName=git@github.com:reddit/redditsans.git
+REDDITSANS_COMMIT="aae51f87b9dc16ab78e8013c1f945dda85318ecc"
+REDDITSANS_PATH="$FONTS/RedditMono-ExtraBold.ttf"
+
+if [[ ! -e "$REDDITSANS_PATH" ]]; then
+	curl -L -f -s \
+		--output "$REDDITSANS_PATH" \
+		https://github.com/reddit/redditsans/raw/$REDDITSANS_COMMIT/fonts/mono/ttf/RedditMono-ExtraBold.ttf
+fi
+
+
 # --------------------------------
 
 intensities=( 1 2 3 4 5-minus 5-plus 6-minus 6-plus 7 )
