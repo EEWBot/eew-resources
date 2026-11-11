@@ -44,7 +44,7 @@ mkdir -p "$TARGET"
 # --------------------------------
 
 # depName=git@github.com:googlefonts/Inconsolata.git
-INCONSOLATA_COMMIT="59be023e18e410c8f9c56fdbd72de17e6f0c05df"
+INCONSOLATA_COMMIT="39212f90dae56b526abc65121a7039a542eb11f9"
 INCONSOLATA_PATH="$FONTS/Inconsolata-Black.ttf"
 if [[ ! -e "$INCONSOLATA_PATH" ]]; then
 	curl -L -f -s \
