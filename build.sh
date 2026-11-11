@@ -76,7 +76,7 @@ fi
 
 
 # depName=git@github.com:googlefonts/morisawa-biz-ud-gothic
-BIZUD_COMMIT="0d3e2d57dbb3cf7480aefaa7fa530dc9978667d1"
+BIZUD_COMMIT="a58cc6885c32c3a5eee197a28e67a35c05f2648d"
 BIZUDP_B_PATH="$FONTS/BIZUDPGothic-Bold.ttf"
 BIZUDP_R_PATH="$FONTS/BIZUDPGothic-Regular.ttf"
 
